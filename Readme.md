@@ -4,7 +4,7 @@ Cleaning up your calibre directories
 Warning
 = 
 This script will *delete* folders from your system if matching criteria. These deletions cannot be undone and I am in no way responsible for important folders being deleted. 
-Back up you folder first and review the python scripts for anything that does something that you do not want or expect. 
+Back up your folder first and review the python scripts for anything that does something that you do not want or expect. 
 
 
 The script
