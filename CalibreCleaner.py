@@ -103,8 +103,8 @@ Returns : void
 
 def what_extensions_do_the_rejects_have():
     ext_collection = []
-    for dir in collection_of_deletable_dirs:
-        for root, subdirs, files in os.walk(dir):
+    for local_dir in collection_of_deletable_dirs:
+        for root, subdirs, files in os.walk(local_dir):
             for file in files:
                 file_ext = file.split(".")[-1]
                 if file_ext not in ext_collection:
